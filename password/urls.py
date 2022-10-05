@@ -21,6 +21,6 @@ from generator import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('',views.index),
-    path('password/',views.password),
+    path('pass/',views.password,name='password'),
 
 ]
